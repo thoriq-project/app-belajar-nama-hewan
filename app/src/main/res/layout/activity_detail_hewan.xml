@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailHewanActivity"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_detail_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collaps_toolnar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:titleEnabled="false"
+            app:contentScrim="@color/main_color"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <ImageView
+                android:id="@+id/img_detail_hewan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax"
+                android:background="@drawable/bg_thumnail3"
+                android:scaleType="centerCrop"
+                />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_collapseMode="pin"
+                app:title="Detail Hewan"
+                app:titleMarginStart="20dp"
+                app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Hewan"
+            android:textSize="18sp"
+            android:fontFamily="@font/baloo_semibold"
+            android:background="@color/abu"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingStart="20dp"
+            />
+
+            <TextView
+                android:id="@+id/txt_detail_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kambing Hutan"
+                android:textSize="20sp"
+                android:fontFamily="@font/baloo_regular"
+                android:background="@color/putih"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahasa Inggrisnya"
+                android:textSize="18sp"
+                android:fontFamily="@font/baloo_semibold"
+                android:background="@color/abu"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="20dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_bing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wild Sheep"
+                android:textSize="20sp"
+                android:fontFamily="@font/baloo_regular"
+                android:background="@color/putih"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi"
+                android:textSize="18sp"
+                android:fontFamily="@font/baloo_semibold"
+                android:background="@color/abu"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="20dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_detail_desk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dummy"
+                android:textSize="20sp"
+                android:fontFamily="@font/baloo_regular"
+                android:background="@color/putih"
+                android:maxLines="100"
+                android:minLines="2"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="10dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_detail_hewan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/kuning"
+        android:src="@drawable/playbtn"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

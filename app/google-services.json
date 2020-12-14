@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807924584792",
+    "firebase_url": "https://belajar-nama-hewan.firebaseio.com",
+    "project_id": "belajar-nama-hewan",
+    "storage_bucket": "belajar-nama-hewan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807924584792:android:1ea4c2441304653e63d52d",
+        "android_client_info": {
+          "package_name": "com.example.belajarnamahewan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807924584792-vtuqtlune90bflnlj4h6quriprin401j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belajarnamahewan",
+            "certificate_hash": "341fa48146255c5a27e670655f5a67079a15a32c"
+          }
+        },
+        {
+          "client_id": "807924584792-fin9qlj6l8qciqb8ovmv2ddhb14uj7n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXlcCyZAlQ7mPFHXaKXV1clwuYufhbCJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807924584792-fin9qlj6l8qciqb8ovmv2ddhb14uj7n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

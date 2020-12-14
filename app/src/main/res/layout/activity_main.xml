@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_background"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@android:color/transparent"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
+        app:title=" "
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_header"
+            android:textSize="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/putih"
+            android:fontFamily="@font/baloo_extrabold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_header2"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/putih"
+            android:fontFamily="@font/baloo_regular"
+            />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <androidx.cardview.widget.CardView
+              android:id="@+id/card_main_herbi"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_marginStart="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              app:cardElevation="5dp"
+              app:cardCornerRadius="8dp"
+              >
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@android:color/black">
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:src="@drawable/herbi"
+                          android:scaleType="centerCrop"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="130dp"
+                      android:layout_height="40dp"
+                      android:background="@drawable/bg_ribbon_yellow"
+                      android:layout_alignParentStart="true"
+                      android:layout_marginTop="20dp"
+                      >
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Herbivora"
+                          android:fontFamily="@font/baloo_semibold"
+                          android:textSize="18sp"
+                          android:gravity="center"
+                          android:layout_gravity="center"/>
+
+                  </LinearLayout>
+
+              </RelativeLayout>
+
+
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:id="@+id/card_main_karni"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_marginStart="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              app:cardElevation="5dp"
+              app:cardCornerRadius="8dp"
+              >
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@android:color/black">
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:src="@drawable/karni"
+                          android:scaleType="centerCrop"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="130dp"
+                      android:layout_height="40dp"
+                      android:background="@drawable/bg_ribbon_yellow"
+                      android:gravity="center"
+                      android:layout_alignParentStart="true"
+                      android:layout_marginTop="20dp"
+                      >
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Karnivora"
+                          android:fontFamily="@font/baloo_semibold"
+                          android:textSize="18sp"
+                          android:layout_gravity="center"
+                          android:gravity="center" />
+
+                  </LinearLayout>
+
+              </RelativeLayout>
+
+
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:id="@+id/card_main_omni"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_marginStart="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              app:cardElevation="5dp"
+              app:cardCornerRadius="8dp"
+              >
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@android:color/black">
+
+                      <ImageView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:src="@drawable/omni"
+                          android:scaleType="centerCrop"/>
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="130dp"
+                      android:layout_height="40dp"
+                      android:background="@drawable/bg_ribbon_yellow"
+                      android:gravity="center"
+                      android:layout_alignParentStart="true"
+                      android:layout_marginTop="20dp"
+                      >
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Omnivora"
+                          android:fontFamily="@font/baloo_semibold"
+                          android:textSize="18sp"
+                          android:layout_gravity="center"
+                          android:gravity="center" />
+
+                  </LinearLayout>
+
+              </RelativeLayout>
+
+
+          </androidx.cardview.widget.CardView>
+
+
+      </LinearLayout>
+
+
+
+    </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"
+        android:background="@android:color/white"
+        >
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

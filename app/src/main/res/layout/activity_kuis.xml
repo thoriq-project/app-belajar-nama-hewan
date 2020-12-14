@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kuis.KuisActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/bg_kuis_top"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:src="@drawable/karni"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:elevation="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kuis_title"
+            android:fontFamily="@font/baloo_bold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skor Tertinggi"
+            android:fontFamily="@font/baloo_regular"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_skor_tertinggi"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_skor"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="100"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:fontFamily="@font/baloo_extrabold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tekan_tombol_dibawah_untuk_memulai_kuis"
+        android:fontFamily="@font/baloo_regular"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/abu_gelap"
+        android:layout_above="@+id/btn_mulai_kuis"/>
+
+    <Button
+        android:id="@+id/btn_mulai_kuis"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="Mulai"
+        android:fontFamily="@font/baloo_semibold"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bg_btn_mulai"
+        android:textColor="@color/putih"/>
+
+
+
+</RelativeLayout>

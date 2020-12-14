@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ACCE22</color>
+    <color name="colorPrimaryDark">#8BA71B</color>
+    <color name="colorAccent">#FFF000</color>
+
+    <color name="main_color">#ACCE22</color>
+    <color name="kuning">#FFF000</color>
+    <color name="putih">#FFFFFF</color>
+
+    <color name="abu">#EEEEEF</color>
+    <color name="abu_gelap">#A1A1A1</color>
+</resources>

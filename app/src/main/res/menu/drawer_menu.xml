@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_kuis"
+        android:title="Kuis"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="Tentang Aplikasi"
+        android:icon="@drawable/ic_info_black_24dp"/>
+
+    <item
+        android:id="@+id/nav_keluar"
+        android:title="Keluar Aplikasi"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_tambah"-->
+<!--        android:title="Tambah Data Hewan"-->
+<!--        android:icon="@drawable/ic_add_circle_black_24dp"/>-->
+
+</menu>

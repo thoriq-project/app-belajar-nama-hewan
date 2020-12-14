@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="Keluar aplikasi?"
+                android:fontFamily="@font/baloo_semibold"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/btn_exit_yes"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Ya"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/baloo_regular"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_exit_no"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Tidak"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/baloo_regular"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

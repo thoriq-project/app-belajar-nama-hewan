@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Belajar Nama Hewan</string>
+
+    <string name="main_header">Aplikasi Pengenalan Nama Hewan Dalam Bahasa Inggris</string>
+
+    <string name="main_header2">Dikelompokan berdasarkan jenis dari makanannya</string>
+
+    <string name="drawer_open">Drawer Opened</string>
+
+    <string name="drawer_close">Drawer Closed</string>
+
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="kuis_title">Kuis Tebak Nama Hewan Dalam Bahasa Inggris</string>
+    <string name="tekan_tombol_dibawah_untuk_memulai_kuis">Tekan tombol dibawah untuk memulai kuis</string>
+
+
+    <string name="tentang_header">
+
+        Tentang Aplikasi Pengenalan Nama Hewan Dalam Bahasa Inggris
+
+    </string>
+
+    <string name="tentang_footer">
+
+        Aplikasi ini adalah aplikasi pengenalan hewan dalam bahasa inggris yang dapat digunakan sebagai media pembelajaran
+        untuk anak-anak, didalam aplikasi terdapat informasi tentang binatang-binatang yang dikelompokan berdasarkan jenis makanannya.
+
+    </string>
+
+</resources>
